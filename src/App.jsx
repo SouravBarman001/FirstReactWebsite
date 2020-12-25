@@ -4,7 +4,7 @@ import Home from './mycomponent/Home';
 import About from './mycomponent/About';
 import Services from './mycomponent/Services';
 import Contact from './mycomponent/Contact';
-import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
+import { Redirect, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
               <Route exact path="/about" component={About}/>
               <Route exact path="/services" component={Services}/>
               <Route exact path="/contact" component={Contact}/>
-           
+             <Redirect to="/"/>
           </Switch>  
              </>         
   );
