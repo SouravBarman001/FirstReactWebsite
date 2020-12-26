@@ -24,18 +24,18 @@ return(
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
+          <NavLink  className="nav-link active" className="nav-link" aria-current="page" exact to="/">Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/services">Services</NavLink>
-        </li>
-
-        <li className="nav-item">
-          <NavLink className="nav-link" to="/about">About</NavLink>
+          <NavLink activeClassName="navbar_active" className="nav-link" to="/services">Services</NavLink>
         </li>
 
         <li className="nav-item">
-          <NavLink className="nav-link" to="/contact">Contact</NavLink>
+          <NavLink activeClassName="navbar_active" className="nav-link" to="/about">About</NavLink>
+        </li>
+
+        <li className="nav-item">
+          <NavLink activeClassName="navbar_active" className="nav-link" to="/contact">Contact</NavLink>
         </li>
       </ul>
   
