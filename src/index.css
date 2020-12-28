@@ -11,6 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.imagecgange{
+height: 40px;
+width: 45px;
+
+}
 .navbar{
 
   background-color: #fff !important;
@@ -41,7 +46,7 @@ color: #565387 !important;
   }
   .menu_active{
     font-weight: bold;
-    border-bottom:none;
+    border-bottom:1px bold #565387;
   }
 }
 /*==================================================================
