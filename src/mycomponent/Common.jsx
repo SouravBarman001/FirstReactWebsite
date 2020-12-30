@@ -1,8 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import web from "../image/java-software-development.svg"
-import sourav from "../../src/image/software2.svg"
 
 
 const Common =(props)=>{
