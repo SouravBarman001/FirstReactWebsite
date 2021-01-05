@@ -4,6 +4,7 @@ import Home from './mycomponent/Home';
 import About from './mycomponent/About';
 import Services from './mycomponent/Services';
 import Contact from './mycomponent/Contact';
+import Footer from "./mycomponent/Footer"
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 import { Redirect, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
@@ -20,7 +21,7 @@ function App() {
               <Route exact path="/contact" component={Contact}/>
              <Redirect to="/"/>
           </Switch>  
-
+                <Footer></Footer>
              </>         
   );
 }

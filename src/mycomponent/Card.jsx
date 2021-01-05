@@ -5,7 +5,7 @@ const Services =(props)=>{
 return(
 <>
 <div className="col-md-4 col-10 mx-auto">
-<div className="card mb-2 cardwidth">
+<div className="card mb-4 cardwidth box-shadow">
 
         <img src={props.imgsrc}  alt="Marketing" className="card-top-top imagesizefit"/>
 
